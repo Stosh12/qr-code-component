@@ -1,0 +1,69 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    -webkit-text-size-adjust: 100%;
+    /* text-rendering:optimizeLegibility;
+    font-kerning: normal; */
+}
+body {
+    background-color: hsl(212, 45%, 89%);
+}
+.qr-card {
+    position: relative;
+    display: block;
+    width: 320px;
+    height: 497px;
+    background-color: hsl(0, 0%, 100%);
+    /* background-image: url("../images/guide-templates/mobile-design-card-only-02.jpg"); */
+    margin: 15% auto 0px auto;
+    border-radius: 20px;
+    box-shadow: 0px 25px 50px 0px hsla(218, 44%, 22%, .1);
+    /* outline: 1px solid red; */
+}
+.qr-code {
+    position: relative;
+    display: block;
+    top: 16px;
+    width: 288px;
+    margin: 0px auto 0px auto;
+    border-radius: 12px;
+}
+.qr-card-content {
+    position: relative;
+    display: inline-block;
+    margin: 20px 25px 0px 25px;
+    outline: 1px solid red;
+}
+h1 {
+    position: relative;
+    top: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    letter-spacing: .01em;
+    text-align: center;
+}
+p {
+    position: relative;
+    display: block;
+    top: 36px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.014em;
+    color: hsl(220, 15%, 55%);
+    text-align: center;
+}
+.attribution {
+    font-size: 11px;
+    text-align: center;
+    margin: 35px 0px 0px 0px;
+}
+.attribution a:hover {
+    font-size: 11px;
+    text-align: center;
+    color: rgb(43, 125, 250);
+    margin: 35px 0px 0px 0px;
+}
