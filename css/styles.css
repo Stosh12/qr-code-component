@@ -30,7 +30,6 @@ body {
     position: relative;
     display: inline-block;
     margin: 16px;
-    /* outline: 1px solid red; */
 }
 .qr-code {
     position: relative;
